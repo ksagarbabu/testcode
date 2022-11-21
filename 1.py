@@ -6,6 +6,6 @@ def fun(n):
     elif e == 0:
         return str(q)
     else:
-        return ternary(e) + str(q)
-a=int(input()
+        return fun(e) + str(q)
+a=int(input())
 print(fun(a))
