@@ -1,0 +1,16 @@
+crawl a website site:
+
+1.clck on Inspect the website HTML that you want to crawl
+2.Access URL of the website using code and download all the HTML contents on the page
+3.Format the downloaded content into a readable format
+4.Extract out useful information and save it into a structured format
+5.For information displayed on multiple pages of the website, you may need to repeat steps 2–4 to have the complete information.
+
+save the images and text from the site:
+1. In order to complete this simple task, you’ll need a web scraper that can collect the URLs in question. ParseHub is a free and incredibly powerful web scraper.
+2. After downloading ParseHub, make sure you have it up and running on your computer.
+3. Get the specific URL of the page we will be scraping.
+4. In ParseHub, click on “New Project” and enter the URL from the website that we will be scraping.
+5. The webpage will now render in ParseHub and you will be able to choose the images you want to scrape.
+6. Since these images also act as links to the product pages, ParseHub is extracting both the image URL and the link it is pointing to (product page). As a result, we will delete the URL selection from the left sidebar and only keep the image selection.
+7. Now ParseHub will scrape every image URL for the first page of results.
